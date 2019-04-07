@@ -1,0 +1,1 @@
+yosys -p 'synth_ecp5; write_verilog' $1
