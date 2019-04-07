@@ -100,6 +100,6 @@ Below are the new microsequences. The starred lines indicate the changes made.
 
 4 JMP: IRload PCincr            Increment the PC, load the IR
        * do_nothing             (wait for the IR to be loaded)
-       ARload                   Load the address reg, increment the PC
+       ARload                   Load the address register
        ARena PCload uSreset     Load the PC from AR, reset the micosequencer
 ```
